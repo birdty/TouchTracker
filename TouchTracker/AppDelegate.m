@@ -28,6 +28,7 @@
     
     [self.window makeKeyAndVisible];
     
+    
 #ifdef VIEW_DEBUG
     NSLog(@"VIEW_DEBUG turned on");
 #endif
