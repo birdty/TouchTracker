@@ -21,11 +21,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     BNRDrawViewController * dvc = [[BNRDrawViewController alloc] init];
-    
     self.window.rootViewController = dvc;
-    
     self.window.backgroundColor = [UIColor whiteColor];
-    
     [self.window makeKeyAndVisible];
     
     
